@@ -13,6 +13,11 @@ console.log(typeof str3);
 let n1 = 10;
 let n2 = 10.11
 
+console.log("Inf case:")
+console.log(typeof Infinity);
+
+console.log("NaN case:");
+console.log(typeof NaN);
 console.log(typeof n1);
 console.log(typeof n2);
 
@@ -28,6 +33,8 @@ console.log(typeof b2);
 console.log(d);
 var d;
 console.log(typeof d);
+
+
 // functions
 function print(){
     console.log("Hello World");
@@ -35,3 +42,12 @@ function print(){
 console.log(typeof print);
 
 // object
+let f = null;
+console.log(typeof f);
+
+
+let arr = [1, 2, 3];
+console.log(typeof arr);
+
+
+
